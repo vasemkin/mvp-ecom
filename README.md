@@ -41,6 +41,7 @@ Reload the page once to see the effects. Hot Reloading supported afterwards.
 Open the source code and start editing!
 
 The api is available at `http://localhost:4200/api/`
+
 Swagger UI is served at `http://localhost:4200/api/docs/`
 
 ## Architecture
