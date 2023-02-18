@@ -25,7 +25,6 @@ Launch the databse and apps:
 ```
 docker-compose up d
 yarn dev
-
 ```
 
 The backend will generate a swagger file, sync it:
@@ -37,9 +36,12 @@ yarn ui:gen-api
 This will generate an RTK Query api client with hooks.
 For additional scripts navigate to root `package.json`
 
-The site is running at `http://localhost:3000`.
+The site is running at `http://localhost:4200`.
 Reload the page once to see the effects. Hot Reloading supported afterwards.
 Open the source code and start editing!
+
+The api is available at `http://localhost:4200/api/`
+Swagger UI is served at `http://localhost:4200/api/docs/`
 
 ## Architecture
 
