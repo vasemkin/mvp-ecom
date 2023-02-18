@@ -7,6 +7,7 @@ Required:
 -   [Node v16](https://nodejs.org/download/release/latest-v16.x/)
 -   [Yarn](https://classic.yarnpkg.com/en/docs/install/)
 -   [Git](https://git-scm.com/downloads)
+-   [Docker](https://www.docker.com/)
 
 This is an Nx based monorepo.
 Visit the [Nx Documentation](https://nx.dev) to learn more.
@@ -19,10 +20,12 @@ cd mv-ecom
 yarn
 ```
 
-Launch the apps:
+Launch the databse and apps:
 
 ```
+docker-compose up d
 yarn dev
+
 ```
 
 The backend will generate a swagger file, sync it:
